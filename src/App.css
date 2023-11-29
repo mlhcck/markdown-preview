@@ -1,0 +1,30 @@
+#title{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+#bundleDiv{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    width: 95%;
+    margin: auto;
+}
+
+#editor{
+    margin: 10px;
+    width: 65%;
+    height: 80vh;
+    font-size: 18px;
+    padding: 10px;
+    overflow: auto;
+    resize: none;
+}
+
+#preview{
+    background-color: #5d5d62;
+    color: white;
+    overflow: overlay;
+    padding: 30px;
+}
